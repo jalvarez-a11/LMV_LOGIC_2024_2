@@ -28,5 +28,7 @@ public class Program
         double TotalSueldo = Salario + ComisionTotal;
         //venta mayor comision
         double MayorComision = Math.Max(Comision_Venta1, Math.Max(Comision_Venta2, Comision_Venta3));
+        Console.WriteLine($"El sueldo total es: {TotalSueldo}");
+        Console.WriteLine($"El comision total es: {ComisionTotal}");
     }
 }
